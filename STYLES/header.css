@@ -1,39 +1,30 @@
-cabecalho {
+.cabecalho{
     background-color: var(--cor-do-cabecalho);
     padding: 1em;
-}
-
-.container {
+    }
+    .container{
     display: flex;
     align-items: center;
-}
-
-.container__imagem, 
-.container__frase {
+    }
+    .container imagem, .container frase{
     padding: 1em;
-}
-
-.container__titulo, 
-.container__frase {
-    display: none;
-}
-
-@media screen and (min-width: 900px) {
-    .container__titulo, 
-    .container__titulo--negrito {
-        font-size: 30px;
     }
-
-    .container__titulo {
-        font-weight: 400;
-        display: block;
+    .container titulo, .container frase{
+    display:none;
     }
-}
-
-@media screen and (min-width: 1024px) {
-    .container__frase {
-        padding-left: 5em;
-        font-size: 20px;
-        display: block;
+    @media screen and (min-width: 900px) {
+        .container_titulo, .container_titulo--negrito {
+            font-size: 30px;
+        }
+        .container__titulo {
+            font-weight: 400;
+            display: block;
+        }
     }
-}
+    @media screen and (min-width: 1024px {
+        .container__frase{
+            padding-left: 5em;
+            font-size: 20px;
+            display: block;
+        }
+    }
