@@ -1,10 +1,32 @@
 @import url(styles/header.css);
 :root{
---cor-de-fundo: #0c1fcc;
---cor-cabecalho: #007df1;
+--cor-de-fundo: #158ad3;
+--cor-cabecalho: #00cbf8;
 }
 
 body{
 background-color: var(--cor-de-fundo);
-margin: 0;
+margin: 1;
+}
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    padding: 1em;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem, .container__frase{
+    padding: 1em;
+}
+
+.cabecalho {
+    text-align: center; /* Centraliza tudo */
+}
+
+.container {
+    display: block; /* Faz com que cada div fique em uma linha */
+    margin-bottom: 20px; /* Adiciona espaçamento entre a logo e o texto */
 }

@@ -1,30 +1,14 @@
-.cabecalho{
-    background-color: var(--cor-do-cabecalho);
-    padding: 1em;
-    }
-    .container{
-    display: flex;
-    align-items: center;
-    }
-    .container imagem, .container frase{
-    padding: 1em;
-    }
-    .container titulo, .container frase{
-    display:none;
-    }
-    @media screen and (min-width: 900px) {
-        .container_titulo, .container_titulo--negrito {
-            font-size: 30px;
-        }
-        .container__titulo {
-            font-weight: 400;
-            display: block;
-        }
-    }
-    @media screen and (min-width: 1024px {
-        .container__frase{
-            padding-left: 5em;
-            font-size: 20px;
-            display: block;
-        }
-    }
+header class="cabecalho">
+    <div class="container">
+        <img src="IMG/pngwing.com.png" width="180" alt="logotipo" class="imagem">
+    </div>
+    <div class="container">
+        <h1 class="titulo">Proteção das tartarugas</h1>
+        <p class="frase">
+            "As tartarugas estão ameaçadas pela poluição, pesca predatória e destruição de habitats. 
+            O plástico nos oceanos as prejudica, e a urbanização afeta suas áreas de desova. 
+            Para protegê-las, é essencial reduzir o uso de plástico, apoiar projetos de conservação e adotar práticas sustentáveis. 
+            Pequenas ações fazem a diferença para garantir sua sobrevivência."
+        </p><
+    </div>
+</header>
