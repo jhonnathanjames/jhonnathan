@@ -2,11 +2,11 @@
 
 /* Variáveis */
 :root {
-    --primary-color: #026773;
-    --secondary-color: #3CA6A6;
-    --text-color: #024959;
-    --background-color: #F2E3D5;
-    --button-hover: #012E40;
+    --primary-color: #7d8285;
+    --secondary-color: #9b9e9e;
+    --text-color: #000000;
+    --background-color: #808080;
+    --button-hover: #8b8989;
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
 }
@@ -39,12 +39,12 @@ header {
     background: var(--primary-color);
     color: white;
     text-align: center;
-    padding: 20%;
+    padding: 5%;
 }
 
 header h1 {
     font-family: var(--font-titulo);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 nav ul {
@@ -58,7 +58,7 @@ na ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
@@ -69,7 +69,7 @@ nav ul li a {
 
 /* senções principais */
 .conteudo {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 20px;
     margin: 20px auto;
     width: 80%;
@@ -110,11 +110,11 @@ footer {
     text-align: center;
     padding: 20px;
     background: var(--primary-color);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 footer .cta-footer {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
